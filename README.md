@@ -1,0 +1,1 @@
+This repository demonstrates a common closure-related bug in JavaScript when using setTimeout within a loop.  The example shows how the final value of 'i' (10) is logged ten times, instead of the expected 0-9 sequence. The solution provides a corrected version using an immediately invoked function expression (IIFE) to capture the value of 'i' in each iteration.
